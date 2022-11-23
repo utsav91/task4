@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+.list {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.list-container {
+  min-width: 300px;
+}
+
+.left-container {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  padding: 16px;
+}
+
+.card__img{
+  height: 100%;
+  max-width: 100px;
+}
+
+.card__info__ameneties {
+  display: flex;
+}
+.card__ameneties--item {
+  margin-right: 4px;
+  font-size: 12px;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: rgb(60, 66, 87);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 8px;
+  display: inline-block;
+  min-height: 28px;
+  transition: background-color .24s,box-shadow .24s;
+}
+
+.selector__action{
+  display: flex;
+}
+.selector__cta {
+  display: flex;
+  padding: 4px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  justify-content: space-around;
+}
+.filters {
+  min-width: 300px;
+}
